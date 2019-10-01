@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 mongoose
   .connect(
-    'mongodb://mongo:27017/docker-node-mongodb',
+    'mongodb://mongodb:27017/docker-node-mongodb',
     { useNewUrlParser: true }
   )
   .then(() => console.log('MongoDB Connected'))
